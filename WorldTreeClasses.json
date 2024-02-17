@@ -1,0 +1,69 @@
+{
+	"BasePart": [
+		"Transparency",
+		"BaseColor",
+		"Size",
+		"Rotation",
+		"Position",
+		"Visible",
+		"Collisions",
+		"Anchored"
+	],
+	"PlayerCamera": [
+		"Rotation",
+		"Position"
+	],
+	"SpawnPart": [
+		"Transparency",
+		"BaseColor",
+		"Size",
+		"Rotation",
+		"Position",
+		"Visible",
+		"Collisions",
+		"Anchored"
+	],
+	"SharedEvent": [],
+	"Sound": [
+		"AssetId"
+	],
+	"Texture": [
+		"AssetId"
+	],
+	"Brick": [
+		"Transparency",
+		"BaseColor",
+		"Size",
+		"Rotation",
+		"Position",
+		"Visible",
+		"Collisions",
+		"Anchored",
+		"Model"
+	],
+	"GUI": [],
+	"Event": [],
+	"Folder": [],
+	"ContainerUI": [
+		"Position",
+		"Rotation",
+		"Size",
+		"BackgroundColor",
+		"Transparency"
+	],
+	"TextLabel": [
+		"Position",
+		"Rotation",
+		"Size",
+		"Text",
+		"TextSize"
+	],
+	"Markdown": [
+		"Text"
+	],
+	"ScriptDynamic": [
+		"LuaSource",
+		"Local",
+		"ScriptDisabled"
+	]
+}

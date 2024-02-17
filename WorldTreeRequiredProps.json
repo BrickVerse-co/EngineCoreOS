@@ -1,0 +1,6 @@
+{
+	"ScriptDynamic": [
+		"LuaSource",
+		"Local"
+	]
+}

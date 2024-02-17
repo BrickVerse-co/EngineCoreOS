@@ -1,0 +1,11 @@
+{
+    "Default": 1,
+    "Universe": 9999,
+    "WorldSettings": 99,
+    "Scene": 98,
+    "SceneEnviornment": 97,
+    "SharedStorage": 96,
+    "ServerStorage": 95,
+    "Players": 97,
+    "ClientGui": 98
+}

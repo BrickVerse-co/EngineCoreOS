@@ -1,0 +1,32 @@
+{
+  "engineVersion": "0.1",
+  "type": "world",
+  "tree": [
+	{
+	  "class": "ScriptDynamic",
+	  "parent": "ServerStorage",
+	  "propreties": {
+		"Name": "ServerScript",
+		"Local": false,
+		"LuaSource": "print('Hi mom.')"
+	  },
+	  "children": []
+	},
+	{
+	  "class": "BasePart",
+	  "parent": "Scene",
+	  "propreties": {
+		"Name": "Part"
+	  },
+	  "children": [
+		{
+		  "class": "BasePart",
+		  "propreties": {
+			"Name": "Part"
+		  },
+		  "children": []
+		}
+	  ]
+	}
+  ]
+}
