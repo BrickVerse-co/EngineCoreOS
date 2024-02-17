@@ -1,0 +1,363 @@
+{
+	"Universe": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": []
+    },
+	"Scene": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false,
+
+            "CreatorId": false,
+            "CreatorName": false,
+            "WorldId": false,
+            "VoiceChatEnabled": false
+        },
+        "Methods": []
+    },
+	"SceneEnviornment": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false,
+            
+            "CloudDensity": true
+        },
+        "Methods": []
+    },
+	"Players": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false,
+            
+            "LocalPlayer": false
+        },
+        "Methods": [
+            "GetPlayerByNetId",
+            "OnPlayerConnected",
+            "OnPlayerDisconnected",
+            "OnLocalPlayerLoaded"
+        ]
+    },
+	"Player": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false,
+            
+            "Character": false,
+            "UserId": false,
+            "IsTyping": true,
+            "NetworkId": false,
+            "Admin": false,
+            "Host": false
+        },
+        "Methods": [
+            "SetMouseShape",
+            "SetMouseMode",
+            "SetChatEnabled",
+            "SetVoiceChatEnabled",
+            "Respawn",
+            "Kick"
+        ]
+    },
+	"LocalEvent": {
+        "Properties": {
+            "Name": true,
+            "Parent": true,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": [
+            "Destroy",
+            "Connect",
+            "Fire"
+        ]
+    },
+	"SharedEvent": {
+        "Properties": {
+            "Name": true,
+            "Parent": true,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": [
+            "Destroy",
+            "Connect",
+            "FireServer",
+            "FireClient"
+        ]
+    },
+	"Folder": {
+        "Properties": {
+            "Name": true,
+            "Parent": true,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": [
+            "Destroy"
+        ]
+    },
+	"UserInputService": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": [
+            "OnUserInput",
+            "IsKeyDown"
+        ]
+    },
+	"RunService": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": [
+            "OnPhysics",
+            "OnFrame"
+        ]
+    },
+	"SharedStorage": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": []
+    },
+	"ServerStorage": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": []
+    },
+	"PlayerCamera": {
+        "Properties": {
+            "Name": true,
+            "Parent": true,
+            "Locked": false,
+            "BVDID": false,
+
+            "Position": true,
+            "Rotation": true
+        },
+        "Methods": [
+            "Destroy"
+        ]
+    },
+	"ChatService": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": [
+            "SendServerMessage",
+            "RegisterCommand",
+            "OnMessageSent",
+            "OnCommandSent"
+        ]
+    },
+	"WorldstoreService": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": [
+            "GetAsync",
+            "SetAsync"
+        ]
+    },
+	"InteractionPrompt": {
+        "Properties": {
+            "Name": true,
+            "Parent": true,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": [
+        ]
+    },
+	"WorldSettings": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false,
+
+            "config": false
+        },
+        "Methods": [
+        ]
+    },
+	"InteractionService": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": [
+        ]
+    },
+	"AuthorityService": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": [
+            "WHOIS",
+            "SetAuthority",
+            "IsLocalAuthority"
+        ]
+    },
+	"SceneService": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": [
+            "LoadScene"
+        ]
+    },
+	"WebService": {
+        "Properties": {
+            "Name": false,
+            "Parent": false,
+            "Locked": false,
+            "BVDID": false
+        },
+        "Methods": [
+            "JSONEncode",
+            "JSONDecode",
+            "RequestAsync"
+        ]
+    },
+	"Humanoid": {
+        "Properties": {
+            "Name": true,
+            "Parent": true,
+            "Locked": false,
+            "BVDID": false,
+
+            "Nametag": true,
+            "DEATH_Y": true,
+            "Dead": false,
+            "Health": true,
+            "MaxHealth": true,
+            "PlayerState": false,
+            "CanMove": true,
+            "CanJumpInAir": true,
+            "CanRun": true,
+            "CurrentSpeed": true,
+            "RunSpeed": true,
+            "WalkSpeed": true,
+            "JumpVelocity": true,
+            "CameraSensitivityHorizontal": true,
+            "CameraSensitivityVertical": true,
+            "WalkAnimationVariation": true,
+            "Position": true,
+            "Rotation": true,
+            "Scale": true
+        },
+        "Methods": [
+            "getAuthroity",
+            "is_local_authority",
+            "jump",
+            "OnCharacterLoaded",
+            "OnCharacterDied",
+            "Respawn",
+            "TakeDamage",
+            "PlayAnimation"
+        ]
+    },
+	"SpawnPart": {
+        "Properties": {
+            "Name": true,
+            "Parent": true,
+            "Locked": false,
+            "BVDID": false,
+
+            "Transparency": true,
+            "BaseColor": true,
+            "Size": true,
+            "Rotation": true,
+            "Position": true,
+            "Visible": true,
+            "Collisions": true,
+            "Anchored": true
+        },
+        "Methods": [
+            "Destroy"
+        ]
+    },
+	"BasePart": {
+        "Properties": {
+            "Name": true,
+            "Parent": true,
+            "Locked": false,
+            "BVDID": false,
+
+            "Transparency": true,
+            "BaseColor": true,
+            "Size": true,
+            "Rotation": true,
+            "Position": true,
+            "Visible": true,
+            "Collisions": true,
+            "Anchored": true
+        },
+        "Methods": [
+            "Destroy"
+        ]
+    },
+	"Brick": {
+        "Properties": {
+            "Name": true,
+            "Parent": true,
+            "Locked": false,
+            "BVDID": false,
+
+            "Transparency": true,
+            "BaseColor": true,
+            "Size": true,
+            "Rotation": true,
+            "Position": true,
+            "Visible": true,
+            "Collisions": true,
+            "Anchored": true,
+            "Model": true
+        },
+        "Methods": [
+            "Destroy"
+        ]
+    }
+}
